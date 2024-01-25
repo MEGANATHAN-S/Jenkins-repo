@@ -1,9 +1,19 @@
-pipeline {
-    agent any 
-    stages {
-        stage('peint'){
+pipeline{
+    agent any
+    stages{
+        stage('print name'){
             steps{
-                echo"hai all"
+                echo"meganathan"
+            }
+        }
+        stage('age'){
+            steps{
+                echo"21"
+            }
+        }
+        stage('address'){
+            steps{
+                echo"dharmapuri"
             }
         }
     }
